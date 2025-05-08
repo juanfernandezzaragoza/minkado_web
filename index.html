@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Minkado - El 5º Tejido de Cooperación</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .hero .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: transform 0.3s;
+        }
+        
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Tejidos Grid */
+        .tejidos-section {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: #1e3c72;
+        }
+        
+        .tejidos-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+        
+        .tejido-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .tejido-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .tejido-card h3 {
+            color: #2a5298;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        
+        .tejido-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            display: block;
+        }
+        
+        .problem-card {
+            background: #fff3cd;
+            border: 2px solid #ffeaa7;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 40px 0;
+            text-align: center;
+        }
+        
+        .problem-card h3 {
+            color: #856404;
+            margin-bottom: 15px;
+        }
+        
+        /* Minkado Solution */
+        .solution-section {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .solution-hero {
+            background: linear-gradient(135deg, #4ecdc4, #44a08d);
+            color: white;
+            padding: 50px;
+            border-radius: 20px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        
+        .solution-hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .feature-card {
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 15px;
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            color: #4ecdc4;
+        }
+        
+        /* How it works */
+        .how-it-works {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
+        
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .step {
+            text-align: center;
+            position: relative;
+        }
+        
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: #4ecdc4;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0 auto 20px;
+        }
+        
+        .step h4 {
+            color: #2a5298;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .cta-section p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .tejidos-grid,
+            .features-grid,
+            .steps {
+                grid-template-columns: 1fr;
+            }
+            
+            .tejido-card,
+            .feature-card,
+            .step {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>El Minkado</h1>
+            <p class="subtitle">La solución al problema central de la economía</p>
+            <a href="#solution" class="cta-button">Más información</a>
+        </div>
+    </section>
+    
+    <!-- Tejidos de Cooperación -->
+    <section class="tejidos-section">
+        <div class="container">
+            <h2 class="section-title">La sociedad tiene cuatro tejidos de cooperación</h2>
+            
+            <div class="tejidos-grid">
+                <div class="tejido-card">
+                    <span class="tejido-icon">🤝</span>
+                    <h3>1. Reciprocidad</h3>
+                    <p><strong>"Hoy por ti, mañana por mí"</strong></p>
+                    <p>✅ Funciona entre amigos y conocidos</p>
+                    <p>❌ No escala más allá del círculo cercano</p>
+                </div>
+                
+                <div class="tejido-card">
+                    <span class="tejido-icon">💰</span>
+                    <h3>2. Mercado</h3>
+                    <p><strong>La reciprocidad tokenizada</strong></p>
+                    <p>✅ Escala globalmente</p>
+                    <p>❌ Ignora el bien común (externalidades)</p>
+                </div>
+                
+                <div class="tejido-card">
+                    <span class="tejido-icon">👁️</span>
+                    <h3>3. Reconocimiento</h3>
+                    <p><strong>Reglas sociales horizontales</strong></p>
+                    <p>✅ Resuelve las externalidades</p>
+                    <p>❌ Solo funciona en grupos pequeños</p>
+                </div>
+                
+                <div class="tejido-card">
+                    <span class="tejido-icon">👑</span>
+                    <h3>4. Jerarquías</h3>
+                    <p><strong>Un líder impone reglas</strong></p>
+                    <p>✅ Resuelve las externalidades</p>
+                    <p>✅ Escala mediante estructuras anidadas</p>
+                    <p>❌ Genera explotación y frena la innovación</p>
+                </div>
+            </div>
+            
+            <div class="problem-card">
+                <h3>🚨 El Problema Fundamental</h3>
+                <p><strong>Ningún tejido actual puede escalar Y resolver problemas comunitarios sin crear jerarquías</strong></p>
+                <ul style="text-align: left; display: inline-block;">
+                    <li>El mercado no valora limpiar plazas o cuidar el ambiente</li>
+                    <li>El reconocimiento social no funciona en ciudades grandes</li>
+                    <li>Las jerarquías crean jefes que extraen valor del grupo</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Minkado Solution -->
+    <section id="solution" class="solution-section">
+        <div class="container">
+            <div class="solution-hero">
+                <h2>El Minkado: El 5º Tejido de Cooperación</h2>
+                <p>Reconocimiento social tokenizado que escala sin jerarquías</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h4>Escala como el Mercado</h4>
+                    <p>Usando karma como moneda digital de reconocimiento</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h4>Resuelve el Bien Común</h4>
+                    <p>La comunidad valora acciones que benefician a todos</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h4>100% Horizontal</h4>
+                    <p>Sin jefes, sin intermediarios, todo es automático</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- How it Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">¿Cómo Funciona?</h2>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h4>Proponer Acciones</h4>
+                    <p>Cualquiera propone: "Limpiar la plaza debería valer karma"</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h4>Valoración Colectiva</h4>
+                    <p>La comunidad vota cuánto karma vale cada acción</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h4>Recompensa Automática</h4>
+                    <p>Al realizar la acción, recibes karma automáticamente de todos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>El Futuro de la Cooperación Comunitaria</h2>
+            <p>Imagina comunidades donde todos colaboran para el bien común, sin jefes ni explotación</p>
+            <a href="#" class="cta-button">Únete al Movimiento Minkado</a>
+        </div>
+    </section>
+    
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
