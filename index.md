@@ -16,7 +16,7 @@ En la actualidad, las jerarquías complementan al mercado para mitigar las exter
 
 Sin embargo, las jerarquías tienen dos problemas:
 
-- Los jerarcas pueden capturar valor que no llega al resto del grupo, lo que aumenta los costos en la economía transversalmente.
+- Los jerarcas pueden capturar valor que no llega al resto del grupo, lo que aumenta los costos en todos los sectores de la economía.
 - El cuello de botella asociado a centralizar las decisiones entorpece la agilidad y la innovación, e implica grandes costos de oportunidad.
 
 A medida que las jerarquías crecen, estos problemas se agravan. En el extremo, las jerarquías tienden a colapsar. Como las jerarquías son tan onerosas, muchas externalidades quedan irresueltas.
@@ -30,7 +30,7 @@ Además del mercado y las jerarquías, existen otros dos sistemas de cooperació
 - En **la reciprocidad**, los individuos intercambian favores a través del tiempo.
 - En **el reconocimiento**, las comunidades aplican penalizaciones y premios de manera horizontal para resolver las externalidades de la reciprocidad.
 
-Existen aldeas, tribus y comunas en las que los intereses individuales están alineados con el bien común sin jerarquías, regidas por la reciprocidad y el reconocimiento. 
+Existen aldeas, tribus y comunas regidas por la reciprocidad y el reconocimiento, en las que los intereses individuales están alineados con el bien común sin jerarquías. 
 
 Como la reciprocidad y el reconocimiento no funcionan en grandes escalas, no resuelven directamente el problema central de la economía.
 
