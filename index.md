@@ -45,3 +45,7 @@ De manera similar, el **minkado** tokeniza la economía del reconocimiento para 
 **Más información:**
 
 **Contacto:**
+
+**Quiénes somos:**
+
+**Comunidad:**
