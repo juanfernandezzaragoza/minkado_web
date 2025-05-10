@@ -43,9 +43,15 @@ La clave para pensar el problema es que el **mercado** nació como una extensió
 De manera similar, el **minkado** tokeniza la economía del reconocimiento para que podamos cooperar  en gran escala, mitigando las externalidades sin necesidad de jerarquías.
 
 **Más información:**
+- Los sistemas de cooperación ([wiki]()).
+- [Marco teórico](https://www.youtube.com/watch?v=drkBVmHKDd8&list=PLW9WMn8xJQsXcZ3EWS7wBlLqnniJtjidp)
 
-**Contacto:**
-
-**Quiénes somos:**
+**Equipo:**
+- Juan Fernández Zaragoza
+- Facundo Javier Gelatti
+- Martín Ignacio Amigo
 
 **Comunidad:**
+- [Filosofía del futuro](https://filosofiadelfuturo.com)
+- [Comunidad networkista](https://txt.networkismo.com/)
+
