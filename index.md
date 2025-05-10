@@ -46,7 +46,8 @@ Lanzamiento en Julio del 2025.
 
 ### Más información
 
-**Contacto:** minketkarma (dirección de gmail.com).
+**Contacto:** 
+- minketkarma (dirección de gmail.com).
 
 **Equipo:**
 - Juan Fernández Zaragoza
