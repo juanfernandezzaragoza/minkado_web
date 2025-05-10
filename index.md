@@ -44,6 +44,8 @@ De manera similar, el **minkado** tokeniza la economía del reconocimiento para 
 
 Lanzamiento en Julio del 2025.
 
+### Más información
+
 **Contacto:** minketkarma (dirección de gmail.com).
 
 **Equipo:**
