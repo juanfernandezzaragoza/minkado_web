@@ -44,9 +44,7 @@ De manera similar, el **minkado** tokeniza la economía del reconocimiento para 
 
 Lanzamiento en Julio del 2025.
 
-**Más información:**
-- Los sistemas de cooperación ([wiki]()).
-- Marco teórico ([lista de reproducción](https://www.youtube.com/watch?v=drkBVmHKDd8&list=PLW9WMn8xJQsXcZ3EWS7wBlLqnniJtjidp)).
+**Contacto:** minketkarma (dirección de gmail.com).
 
 **Equipo:**
 - Juan Fernández Zaragoza
@@ -54,6 +52,7 @@ Lanzamiento en Julio del 2025.
 - Martín Ignacio Amigo
 
 **Comunidad:**
-- [Filosofía del futuro](https://filosofiadelfuturo.com)
-- [Comunidad networkista](https://txt.networkismo.com/)
+- Filosofía del futuro ([Blog](https://filosofiadelfuturo.com)).
+- Comunidad networkista ([web](https://txt.networkismo.com/)).
+- Marco teórico ([lista de reproducción](https://www.youtube.com/watch?v=drkBVmHKDd8&list=PLW9WMn8xJQsXcZ3EWS7wBlLqnniJtjidp)).
 
