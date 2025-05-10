@@ -2,7 +2,7 @@
 
 Una solución al problema central de la economía.
 
-## El dilema central
+## El problema central
 
 Hasta ahora, existieron dos sistemas económicos de gran escala:
 
@@ -21,7 +21,7 @@ Sin embargo, las jerarquías tienen dos problemas:
 
 A medida que las jerarquías crecen, estos problemas se agravan. En el extremo, las jerarquías tienden a colapsar. Como las jerarquías son tan onerosas, muchas externalidades quedan irresueltas.
 
-Si tuviéramos un sistema capaz de mitigar las externalidades sin jerarquías, este resolvería el problema central de la economía actual. Ese sistema es el **minkado**.
+Si tuviéramos un sistema capaz de mitigar las externalidades sin jerarquías, este resolvería el dilema central de la economía actual. Ese sistema es el **minkado**.
 
 ## Economías pequeñas
 
