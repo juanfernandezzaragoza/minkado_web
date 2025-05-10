@@ -44,7 +44,7 @@ De manera similar, el **minkado** tokeniza la economía del reconocimiento para 
 
 **Más información:**
 - Los sistemas de cooperación ([wiki]()).
-- [Marco teórico](https://www.youtube.com/watch?v=drkBVmHKDd8&list=PLW9WMn8xJQsXcZ3EWS7wBlLqnniJtjidp)
+- Marco teórico ([lista de reproducción](https://www.youtube.com/watch?v=drkBVmHKDd8&list=PLW9WMn8xJQsXcZ3EWS7wBlLqnniJtjidp)).
 
 **Equipo:**
 - Juan Fernández Zaragoza
