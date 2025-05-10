@@ -6,8 +6,8 @@ Una solución al problema central de la economía.
 
 Hasta ahora, existieron dos sistemas económicos de gran escala:
 
-- En e**l mercado,** los individuos intercambian prestaciones por dinero.
-- En **las jerarquías,** alguien manda y los demás obedecen.
+- **El mercado,** en que los individuos intercambian prestaciones por dinero.
+- **Las jerarquías,** en que alguien manda y los demás obedecen.
 
 En la actualidad, las jerarquías complementan al mercado para mitigar las externalidades: 
 
